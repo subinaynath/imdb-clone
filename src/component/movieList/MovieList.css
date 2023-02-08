@@ -12,3 +12,10 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+
+@media(max-width:600px){
+    .list__title {
+        font-size: 1.2rem;
+        margin: 0.5rem;
+    }
+}

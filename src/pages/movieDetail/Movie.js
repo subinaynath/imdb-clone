@@ -51,7 +51,7 @@ const Movie = () => {
                     </div>
                     <div className="movie__detailRightBottom">
                         <div className="synopsisText">Synopsis</div>
-                        <div>{currMovie ? currMovie.overview : ""}</div>
+                        <div className='div-text'>{currMovie ? currMovie.overview : ""}</div>
                     </div>
 
                 </div>

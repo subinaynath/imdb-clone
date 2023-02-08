@@ -1,12 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html,body,#root, .APP{
+html,
+body,
+#root,
+.APP {
   min-height: 100%;
 }
 
-html{
+html {
   background-color: black;
 }
+
+
+/* @media (max-width: 600px) {
+  .posterImage {
+    height: 224px;
+  }
+
+  .posterImage__description {
+    font-size: 10px;
+    margin-bottom: -31px;
+    width: 90%;
+  }
+
+  a>span {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+
+  .header_icon {
+    width: 64px;
+  }
+
+} */

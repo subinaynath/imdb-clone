@@ -17,7 +17,7 @@ function Home() {
         <>
             <div className="poster">
                 
-                <Carousel showThumbs={false} autoPlay={true} transitionTime={4} infiniteLoop={true} showStatus={false}>
+                <Carousel showThumbs={false} autoPlay={true} transitionTime={1} infiniteLoop={true} showStatus={false}>
                     {popularMovies.map((movie) => (
                         <Link style={{ textDecoration: "none", color: "white" }} to={`/movie/${movie.id}`} >
                             <div className="posterImage">
